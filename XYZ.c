@@ -11,6 +11,5 @@ int main()
 
     printf("divide the a and b is %f\n",a/b);
 
-
     return 0;
 }
