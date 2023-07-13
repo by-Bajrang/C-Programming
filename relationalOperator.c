@@ -3,7 +3,7 @@
 int main()
 {
 int x;
-x=3>4;
+x=5>3>2;
 printf("%d",x);
 getch();
 
