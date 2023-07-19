@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include<stdlib.h>
+#include <stdio.h> //Input->scanf  Output->Printf
+#include<stdlib.h> //Exit
 
 int main()
 {
