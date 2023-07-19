@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main()
 {
     int i = 1, x;
@@ -18,5 +19,6 @@ int main()
     //     printf("applied break");
 
     // or
+
     i == 6 ? printf("ends normally") : printf("applied break");
 }
