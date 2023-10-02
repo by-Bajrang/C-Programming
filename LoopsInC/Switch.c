@@ -4,8 +4,8 @@
 int main()
 {
     int choice, a, b, s;
-    while (1)
-    {
+    
+    
         printf("\n-------------Menu-------------");
         printf("\n1. addition");
         printf("\n2. odd_even");
@@ -13,7 +13,7 @@ int main()
         printf("\n4. exit");
 
         printf("\nenter your choice");
-        scanf("\n\n%d", &choice);
+        scanf("%d", &choice);
         switch (choice)
         {
         case 1:
@@ -37,8 +37,8 @@ int main()
         {
             printf("enter a no.");
             scanf("%d", &a);
-            for (int i = 1; i <= a; i++) // or for(b=1;b<=a;b++)
-                printf("%d\n", i);
+             for(b=1;b<=a;b++)
+                printf("%d\n", b);
             break;
         }
        case 4:
@@ -51,4 +51,3 @@ int main()
         }
         }
     }
-}
