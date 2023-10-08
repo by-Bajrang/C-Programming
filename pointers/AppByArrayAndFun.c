@@ -11,16 +11,18 @@ void display(int *p)
     for (i = 0; i <= 4; i++)
         printf("%d  ", *(p + i));
 }
-void sort( int *p)
+void sort(int *p)
 {
     int round, i, t;
     for (round = 1; round <= 4; round++)
-        for (i = 0; i <= 4-round ; i++)
+        for (i = 0; i <= 4 - round; i++)
         {
             if (*(p + i) > *(p + 1 + i))
-              {  t = *(p + i);
-            *(p + i) = *(p + 1 + i);
-            *(p + 1 + i) = t;}
+            {
+                t = *(p + i);
+                *(p + i) = *(p + 1 + i);
+                *(p + 1 + i) = t;
+            }
         }
 }
 
