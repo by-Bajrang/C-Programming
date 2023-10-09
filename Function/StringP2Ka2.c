@@ -11,6 +11,6 @@ int main ()
  
 //printf("%c",s[i]);
             //OR 
-    puts(s); // or puts(&s[0]);
+    printf(s);// puts(s); // or puts(&s[0]);
     getch();       
 }
