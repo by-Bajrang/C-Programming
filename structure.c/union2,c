@@ -1,0 +1,21 @@
+#include<stdio.h>
+union item
+{
+    int x;
+    float y;
+    char z;
+};
+int main ()
+{
+union item p;
+p.x=4;
+printf("x=%d",p.x);
+p.y=6.5;
+printf("x=%f",p.y);
+p.z='b';
+printf("x=%c",p.z);
+
+
+return 0;
+
+}
