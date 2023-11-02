@@ -9,11 +9,11 @@ int main()
 {
     union item p;
     p.x = 4;
-    printf("x=%d", p.x);
+    printf("x=%d\n", p.x);
     p.y = 6.5;
-    printf("y=%f", p.y);
+    printf("y=%f\n", p.y);
     p.z = 'b';
-    printf("z=%c", p.z);
-
+    printf("z=%c\n", p.z); 
+ 
     return 0;
 }
