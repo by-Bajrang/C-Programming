@@ -18,6 +18,6 @@ int main ()
                 printf("%d/%s/%d",h.rollno,h.name,h.age);
                 return 0;
 
- 
+  
 
 } 
