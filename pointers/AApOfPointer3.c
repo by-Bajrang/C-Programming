@@ -26,4 +26,4 @@ char *revers(char *p)
         *(p + l - 1 - i) = t;
     }
     return (p);
-}
+} 

@@ -12,7 +12,7 @@ int main()
         printf("\n3. print N number");
         printf("\n4. exit");
 
-        printf("\nenter your choice");
+        printf("\n enter your choice");
         scanf("%d", &choice);
         switch (choice)
         {
